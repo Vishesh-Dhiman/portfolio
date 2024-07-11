@@ -1,5 +1,3 @@
-Sure, here is the description converted into Markdown format:
-
 # portfolio
 
 ## Description:
@@ -41,6 +39,3 @@ I welcome contributions to enhance this portfolio. If you have suggestions for i
 
 ## License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This Markdown format is ready to be added to your `README.md` file in your repository.

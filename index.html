@@ -1,1 +1,129 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishesh Dhiman - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Vishesh Dhiman</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I am Vishesh Dhiman, a web developer with a passion for creating interactive and responsive web applications. Explore my projects and get to know more about my skills and experience.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+            </div>
+            <div class="project-item">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vishesh Dhiman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #071952;
+            color: #EBF4F6;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: #EBF4F6;
+            text-decoration: none;
+        }
+        .about, .projects, .contact {
+            padding: 2em 0;
+        }
+        .projects .project-item {
+            margin-bottom: 1em;
+        }
+        form label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #071952;
+            color: #EBF4F6;
+            border: none;
+            padding: 0.5em 1em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #071952;
+            color: #EBF4F6;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</body>
+</html>
